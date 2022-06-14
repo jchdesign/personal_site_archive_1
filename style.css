@@ -1,0 +1,112 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat);
+
+html {
+    position: relative;
+    width: 100%;
+    background: #ffffff;
+    padding: 50px 0px 0px 0px;
+    font-family: 'Montserrat', sans-serif;
+    color: #282828;
+}
+
+.header {
+    position: relative;
+    height: 100px;
+}
+
+.name-bar {
+    position: relative;
+    float: left;
+    left: 10%;
+    width: 20%;
+    height: 50px;
+    line-height: 50px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.content-box {
+    position: relative;
+    width: 80%;
+    left: 5%;
+    padding: 5%;
+    background-color: rgb(186, 186, 186);
+}
+
+.nav-bar {
+    position: absolute;
+    right: 30%;
+    width: 40%;
+    height: 50px;
+}
+
+.link-bar {
+    position: relative;
+    float: right;
+    right: 10%;
+    width: 20%;
+    height: 50px;
+    text-align: center;
+}
+
+.social-img {
+    width: 40px;
+    height: 40px;
+    vertical-align: middle;
+}
+
+.social-img-div {
+    width: 40%;
+    height: 100%;
+    float: left;
+    text-align: center;
+}
+
+.button {
+    position: relative;
+    display: block;
+    color: #282828;
+    float: left;
+    width: 25%;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+
+.button:hover {
+    color: #7a36bf;
+    cursor: pointer;
+    -webkit-animation: hoverFading 0.5s;
+    animation: hoverFading 0.5s;
+}
+
+@keyframes hoverFading {
+    0% {color: #282828;}
+}
+
+@-webkit-keyframes hoverFading {
+    0% {color: #282828;}
+}
+
+a:link {
+    text-decoration: none;
+}
+  
+a:visited {
+    text-decoration: none;
+}
+  
+/* a:hover {
+    text-decoration: underline;
+}
+  
+a:active {
+    text-decoration: underline;
+} */
+
+/* Research */
+
+.poster {
+    width: 100%;
+}
