@@ -103,8 +103,10 @@ hr {
 }
 
 .link-bar {
+    display: flex;
     position: relative;
     float: right;
+    justify-content: center;
     right: 10%;
     width: 20%;
     height: 50px;
@@ -112,15 +114,13 @@ hr {
 }
 
 .social-img {
-    width: 40px;
-    height: 40px;
+    width: 40%;
+    height: 40%;
     vertical-align: middle;
 }
 
 .social-img-div {
     width: 40%;
-    height: 100%;
-    float: left;
     text-align: center;
 }
 
