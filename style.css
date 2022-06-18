@@ -6,10 +6,10 @@ html {
     position: relative;
     width: 100%;
     padding: 0px 50px 0px 50px;
-    background: #ffffff;
+    background: #000000;
     padding: 50px 0px 50px 0px;
     font-family: 'Montserrat', sans-serif;
-    color: #282828;
+    color: #dfdede;
 }
 
 a {
@@ -24,9 +24,9 @@ img {
 
 hr {
     display: block;
-    height: 2px;
+    height: 4px;
     border: 0;
-    border-top: 2px solid #282828;
+    border-top: 2px solid #000000;
     padding: 0;
 }
 
@@ -59,7 +59,7 @@ hr {
     width: 80%;
     left: 5%;
     padding: 5%;
-    background-color: rgb(197, 197, 197);
+    background-color: #342d34
 }
 
 .container { /* puts stuff inside content box */
@@ -116,23 +116,45 @@ hr {
 }
 
 .social-img {
-    display: inline-block;
-    width: 40%;
-    height: 40%;
+    display: block;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    margin: 0 px auto;
 }
 
 .social-img-div {
-    display: inline-block;
+    display: block;
+    height: 50px;
     width: 40%;
-    line-height: 100%;
-    vertical-align: middle;
-    text-align: center;
+}
+
+.linkedin {
+    background-image: url('media/linkedin.png');
+    transition: background-image 0.3s ease-in-out;
+}
+
+.github {
+    background-image: url('media/github.png');
+    transition: background-image 0.3s ease-in-out;
+}
+
+.linkedin:hover {
+    background-image: url('media/linkedin_hover.png');
+    transition: background-image 0.3s ease-in-out;
+}
+
+.github:hover {
+    background-image: url('media/github_hover.png');
+    transition: background-image 0.3s ease-in-out;
 }
 
 .button {
     position: relative;
     display: inline-block;
-    color: #282828;
+    color: #dfdede;
     width: 24%;
     height: 50px;
     line-height: 50px;
@@ -143,16 +165,16 @@ hr {
 .button:hover {
     color: #713aa8;
     cursor: pointer;
-    -webkit-animation: hoverFading 0.5s;
-    animation: hoverFading 0.5s;
+    -webkit-animation: hoverFading 0.3s;
+    animation: hoverFading 0.3s;
 }
 
 @keyframes hoverFading {
-    0% {color: #282828;}
+    0% {color: #dfdede;}
 }
 
 @-webkit-keyframes hoverFading {
-    0% {color: #282828;}
+    0% {color: #dfdede;}
 }
 
 a:link {
@@ -162,14 +184,6 @@ a:link {
 a:visited {
     text-decoration: none;
 }
-  
-/* a:hover {
-    text-decoration: underline;
-}
-  
-a:active {
-    text-decoration: underline;
-} */
 
 .img-box-100 {
     width: 100%;
@@ -190,6 +204,16 @@ a:active {
     display: inline-block;
     width: 25%;
     padding: 25px;
+}
+
+.release-img {
+    opacity: 1.0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+.release-img:hover {
+    opacity: 0.3;
+    transition: opacity 0.3s ease-in-out;
 }
 
 .center {
