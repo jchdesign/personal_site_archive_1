@@ -27,7 +27,7 @@ hr {
     height: 4px;
     border: 0;
     border-top: 3px solid #000000;
-    padding: 0;
+    padding: 5;
 }
 
 .header {
@@ -74,7 +74,7 @@ hr {
     position: relative;
     justify-content: center;
     width: 100%; 
-    margin: auto;
+    margin: 20px auto;
     text-align: center;
 }
 
